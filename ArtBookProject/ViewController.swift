@@ -48,17 +48,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         do {
             let results = try context.fetch(fetchRequest)
             
-            for result in results as! [NSManagedObject] {
+            if results.count > 0 {
                 
-                if let name = result.value(forKey: "name") as? String {
-                    self.nameArray.append(name)
+                for result in results as! [NSManagedObject] {
+                    
+                    if let name = result.value(forKey: "name") as? String {
+                        self.nameArray.append(name)
+                    }
+                    
+                    if let id = result.value(forKey: "id") as? UUID {
+                        self.idArray.append(id)
+                    }
+                    
+                    self.tableView.reloadData()
                 }
-                
-                if let id = result.value(forKey: "id") as? UUID {
-                    self.idArray.append(id)
-                }
-                
-                self.tableView.reloadData()
             }
             
         } catch {
