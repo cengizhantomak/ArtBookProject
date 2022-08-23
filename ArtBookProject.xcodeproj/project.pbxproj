@@ -14,6 +14,7 @@
 		81D5079A28B4D02F002DB471 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81D5079828B4D02F002DB471 /* ArtBookProject.xcdatamodeld */; };
 		81D5079C28B4D030002DB471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D5079B28B4D030002DB471 /* Assets.xcassets */; };
 		81D5079F28B4D030002DB471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D5079D28B4D030002DB471 /* LaunchScreen.storyboard */; };
+		81D507A728B4D314002DB471 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D507A628B4D314002DB471 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		81D5079B28B4D030002DB471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D5079E28B4D030002DB471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D507A028B4D030002DB471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D507A628B4D314002DB471 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				81D5078F28B4D02F002DB471 /* AppDelegate.swift */,
 				81D5079128B4D02F002DB471 /* SceneDelegate.swift */,
 				81D5079328B4D02F002DB471 /* ViewController.swift */,
+				81D507A628B4D314002DB471 /* DetailsVC.swift */,
 				81D5079528B4D02F002DB471 /* Main.storyboard */,
 				81D5079B28B4D030002DB471 /* Assets.xcassets */,
 				81D5079D28B4D030002DB471 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				81D5079428B4D02F002DB471 /* ViewController.swift in Sources */,
 				81D5079028B4D02F002DB471 /* AppDelegate.swift in Sources */,
 				81D5079228B4D02F002DB471 /* SceneDelegate.swift in Sources */,
+				81D507A728B4D314002DB471 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
